@@ -11,3 +11,6 @@ Easy, interactive user experience
 Setup Instructions:
 Clone this repository.
 You can refer to the Botpress documentation to configure and deploy your bot.
+
+<img width="1462" alt="Screenshot 2024-12-07 at 1 20 47 PM" src="https://github.com/user-attachments/assets/e402b4d1-67b7-4d13-aa26-9b8666129147">
+
