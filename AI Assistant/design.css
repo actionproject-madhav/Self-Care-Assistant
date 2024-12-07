@@ -1,0 +1,180 @@
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #f4f7f6; 
+}
+
+.split-screen {
+    display: flex;
+    height: 100%;
+}
+
+/* Left Side (Content Area) */
+.left-side {
+    flex: 1;
+    background: #a5d6a7; /* Soft green, earthy tones */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #2c6f38; /* Darker green text */
+    text-align: center;
+}
+
+.left-side h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c6f38;
+}
+
+.left-side p {
+    font-size: 1.2rem;
+    color: #3e8e41;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    background-color: #388e3c; /* Deep green */
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+}
+
+/* Right Side (Chatbot Window) */
+.right-side {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: -6px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.bot-window {
+    width: 80%;
+    max-width: 400px;
+    height: 80%;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-window .bot-header {
+    background-color: #388e3c;
+    padding: 15px;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bot-window .bot-messages {
+    flex: 1;
+    padding: 20px;
+    background-color: #e8f5e9;
+    overflow-y: auto;
+    font-size: 1.1rem;
+    color: #2c6f38;
+    line-height: 1.6;
+}
+
+.bot-window .user-message {
+    text-align: right;
+    margin: 15px 0;
+}
+
+.bot-window .bot-message {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.bot-window .message {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.bot-window .user-message .message {
+    background-color: #dcedc8; /* Light green for user messages */
+}
+
+.bot-window .bot-message .message {
+    background-color: #a5d6a7; /* Softer green for bot messages */
+}
+
+/* Input Area Styling */
+.bot-window .input-area {
+    display: flex;
+    padding: 15px;
+    background-color: #f1f8e9;
+    border-top: 2px solid #c8e6c9;
+}
+
+.bot-window .input-area input {
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: 2px solid #c8e6c9;
+    border-radius: 25px;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.bot-window .input-area input:focus {
+    border-color: #388e3c;
+}
+
+.bot-window .input-area button {
+    background-color: #388e3c;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    padding: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.bot-window .input-area button:hover {
+    transform: scale(1.1);
+}
+
+/* Add a background image for the right side (Ayurveda-themed) */
+.right-side .background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
