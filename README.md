@@ -10,4 +10,4 @@ Easy, interactive user experience
 
 Setup Instructions:
 Clone this repository.
-Refer to the Botpress documentation to configure and deploy your bot.
+You can refer to the Botpress documentation to configure and deploy your bot.
