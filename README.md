@@ -1,4 +1,4 @@
-Welcome to the AI Therapist — a personalized bot to guide you through the principles of meditation, mindfulness, yoga and well-being . This assistant provides tailored advice on improving your physical and mental health.
+Welcome to the AI Therapist — a personalized bot to guide you through the principles of meditation, mindfulness, yoga and well-being. This assistant provides tailored advice on improving your physical and mental health. The bot was trained on self-care data and literature on well-being. Furthermore, OpenAI API integration and live web search are integrated in case the bot doesn't find an answer on the knowledge base it is trained on. 
 
 Features:
 Personalized self-care recommendations
