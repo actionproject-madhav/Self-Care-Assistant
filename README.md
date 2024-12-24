@@ -1,8 +1,7 @@
-Ayurveda Yoga Assistant Bot
-Welcome to the Ayurveda Yoga Assistant — a personalized bot to guide you through the principles of Ayurveda and Yoga. This assistant provides tailored advice on improving your physical and mental health with a focus on Ayurvedic wellness practices.
+Welcome to the AI Therapist — a personalized bot to guide you through the principles of meditation, mindfulness, yoga and well-being . This assistant provides tailored advice on improving your physical and mental health.
 
 Features:
-Personalized yoga and Ayurvedic recommendations
+Personalized self-care recommendations
 Holistic wellness and lifestyle guidance
 Easy, interactive user experience
 ### Try it now:
@@ -12,5 +11,5 @@ Setup Instructions:
 Clone this repository.
 You can refer to the Botpress documentation to configure and deploy your bot.
 
-<img width="1462" alt="Screenshot 2024-12-07 at 1 20 47 PM" src="https://github.com/user-attachments/assets/e402b4d1-67b7-4d13-aa26-9b8666129147">
+<img width="1081" alt="Screenshot 2024-12-24 at 5 30 31 PM" src="https://github.com/user-attachments/assets/6bc37836-5007-46a7-adef-110499176bf1" />
 
